@@ -1,0 +1,13 @@
+#Import Math for use of Pi
+import math
+
+#Create a program to calculate the area of a circle given its radius.
+
+#Prompt user for radius of a circle in inches
+radius_of_circle = float(input("Enter value of radius in inches:"))
+
+#Calucluate area based on radius
+area_of_circle = float(math.pi) * radius_of_circle **2
+
+#Print result of equation
+print("The area of a circle with a radius of", radius_of_circle, "inches is", area_of_circle,"inches.")
